@@ -1,5 +1,6 @@
 #!/bin/sh -l
 
-echo "Hello $1"
-time=$(date)
-echo "::set-output name=time::$time"
+aws lightsail help
+# echo "Hello $1"
+# time=$(date)
+# echo "::set-output name=time::$time"
